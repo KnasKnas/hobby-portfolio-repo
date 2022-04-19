@@ -1,11 +1,16 @@
 import "./App.css"
 import React from "react"
 import Home from "./pages/Home"
+import Footer from "./pages/Footer"
+import Header from "./pages/Header"
 
 const App = (): JSX.Element => {
+	
 	return (
 		<div className="App">
+			<Header />
 			<Home />
+			<Footer />
 			{/* <header className="App-header">
 				<img src={logo} className="App-logo" alt="logo" />
 				<p>
